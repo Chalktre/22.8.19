@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box2 {
+    position: absolute;
+    z-index: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
